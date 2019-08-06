@@ -4,7 +4,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 import pickle
 import pandas as pd
-infile = open("files/senti_prediction_NB.pickle",'rb')
+# infile = open("files/senti_prediction_NB.pickle",'rb')
+infile = open("files/train32820+pred6538.pickle",'rb')
 data = pickle.load(infile)
 infile.close()
 #print('im')
