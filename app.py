@@ -17,7 +17,7 @@ z=data[data==0]
 app = dash.Dash()
 
 app.layout = html.Div(children=[
-    html.H1(children='Welcome to Iventura Platform'),
+    html.H1(children='Welcome to Prodevans Iventura'),
     dcc.Graph(id='example',
         figure={
             'data': [
